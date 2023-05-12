@@ -11,7 +11,7 @@ class MyDocument extends Document {
             rel="stylesheet"
             href="https://github.com/oleg-lekhnitsky/blogg/blob/main/src/styles/stylesheet.css"
           />
-          <link rel="icon" href="/favicon.png" />
+          <link rel="icon" href="/favicon1.png" />
           <link
             rel="apple-touch-icon"
             sizes="192x192"
