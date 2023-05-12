@@ -10,7 +10,7 @@ import React from "react"
 import PostHeader from "./PostHeader"
 import PostFooter from "./PostFooter"
 import CommentBox from "./CommentBox"
-import RelatedPosts from "./RelatedPosts"
+
 
 const mapPageUrl = (id: string) => {
   return "https://www.notion.so/" + id.replace(/-/g, "");
@@ -43,15 +43,7 @@ const PostDetail: React.FC<Props> = ({ blockMap, data, nextPostSlug }) => {
             />
           </div>
         )}
-        {data.type[0] === "Post" && (
-          
-          <>
-            <PostFooter nextPostSlug={nextPostSlug} />
-            
-            <RelatedPosts></RelatedPosts>
-            
-          </>
-        )}
+       
       </article>
     </div>
   )
