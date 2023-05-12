@@ -1,36 +1,36 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: 'Hello! Here you can look at my portfolio',
-    image: '/images/Olegg.png',  // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: 'Conent creator',
+    name: 'Innovative branding agency',
+    image: '/images/logo.gif',  // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    role: 'Branding agency Pocket Rocket',
     bio: '',
-    email: 'yuli.naida15@gmail.com',
-    linkedin: 'yuliananaida',
+    email: 'pocketrocket@gmail.com',
+    linkedin: 'pocketrocket_agency',
     github: '',
-    instagram: 'yuli.naida',
-    vimeo: 'yulianaida',
+    instagram: 'pocketrocket_agency',
+    vimeo: '',
   },
   projects: [
     {
-      name: `FSP`,
-      href: 'https://github.com/oleg-lekhnitsky/blogg'
+      name: `PRA Blog`,
+      href: 'https://github.com/ksushavoskr/PRAblog' //https://github.com/oleg-lekhnitsky/blog
     }
   ],
   // blog setting (required)
   blog: {
-    title: 'Oleg Lekhnitsky',
-    description: 'Looking for a job',
+    title: 'Pocket Rocket',
+    description: 'Blog of branding agency Pocket Rocket',
     theme: 'auto' // ['light', 'dark', 'auto']
   },
 
   // CONFIG configration (required)
-  link: 'https://blogg-omega.vercel.app',
-  since: 2017, // If leave this empty, current year will be used.
+  link: '', //https://blogg-omega.vercel.app
+  since: 2023, // If leave this empty, current year will be used.
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: 'https://og-image-korean.vercel.app', // The link to generate OG image, don't end with a slash
   seo: {
-    keywords: ['Blog', 'Website', 'Notion'],
+    keywords: ['Blog', 'Website', 'Branding'],
   },
 
   // notion configuration (required)
@@ -54,7 +54,7 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: 'oleg-lekhnitsky/blogg',
+      repo: '', //oleg-lekhnitsky/blogg
       'issue-term': 'og:title',
       label: 'Utterances',
     }
