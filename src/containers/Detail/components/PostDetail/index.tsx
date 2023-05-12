@@ -9,7 +9,6 @@ import { TPost } from "@/src/types"
 import React from "react"
 import PostHeader from "./PostHeader"
 import PostFooter from "./PostFooter"
-import CommentBox from "./CommentBox"
 
 
 const mapPageUrl = (id: string) => {
